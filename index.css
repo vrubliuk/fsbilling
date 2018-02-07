@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   user-select: none;
-  /* font-family: 'Raleway', sans-serif; */
   font-family: 'Sedgwick Ave', cursive;
   outline: none !important;
   color: white;
@@ -15,7 +14,7 @@ body {
   position: relative;
   height: 100%;
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
   background-image: url('/images/bg.jpg');
   background-position: center;
   background-size: cover;
@@ -40,7 +39,6 @@ a:visited {
 
 
 .header__brand {
-  /* font-family: 'Sedgwick Ave', cursive; */
   background-color: black;
   font-size: 48px;
 }
