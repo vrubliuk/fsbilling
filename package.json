@@ -1,0 +1,14 @@
+{
+  "name": "fsbilling",
+  "version": "1.0.0",
+  "description": "Home page for fsbilling.at.ua",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
