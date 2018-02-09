@@ -11,6 +11,7 @@
 html,
 body {
   min-width: 300px;
+  min-height: 800px;
   position: relative;
   height: 100%;
   width: 100%;
@@ -34,35 +35,10 @@ a:visited {
   padding: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
-
 
 .header__brand {
-  background-color: black;
   font-size: 48px;
-}
-.header__button {
-  font-size: 24px;
-  border: 2px solid white;
-  background-color: black;
-  height: 50px;
-  width: 200px;
-  cursor: pointer;
-  transition: 0.2s linear;
-}
-.header__button:hover {
-  background-color: white;
-  color: black;
-}
-
-.header__button__icon {
-  transition: 0.2s linear;
-  font-size: 24px;
-}
-
-.header__button:hover .header__button__icon {
-  color: black;
 }
 
 .main {
@@ -114,8 +90,6 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.footer__author {
   font-size: 16px;
 }
 
